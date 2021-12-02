@@ -3,7 +3,7 @@ import struct
 import requests
 import json
 
-BASE_URL = "http://192.168.202.226:2080"
+BASE_URL = "http://192.168.48.226:2080"
 
 def extract_ip():
     st = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
